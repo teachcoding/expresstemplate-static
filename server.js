@@ -13,7 +13,8 @@ app.use(bodyparser.json())
 
 // your code here...
 
+var PORT = process.env.PORT || 3000
 // listening port
-app.listen(3000, function (e) {
+app.listen(PORT, function (e) {
   if (e) throw e
 })
